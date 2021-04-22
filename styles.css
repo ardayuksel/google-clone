@@ -11,13 +11,11 @@ body {
   height: 100%;
   font-family: Arial, sans-serif;
 }
-
 body a {
   text-decoration: none;
   line-height: 24px;
 }
 /* Header Section*/
-
 header {
   display: flex;
   width: 100%;
