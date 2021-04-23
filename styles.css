@@ -64,3 +64,17 @@ a img {
 .header-images:hover {
   text-decoration: underline;
 }
+/* Logo Section */
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-height: 290px;
+  min-height: 92px;
+  height: -webkit-calc(100vh - 560px);
+  height: -moz-calc(100vh - 560px);
+  height: calc(100vh - 560px);
+}
+.google-logo {
+  height: 92px;
+}
