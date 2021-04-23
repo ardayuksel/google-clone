@@ -71,7 +71,7 @@ a img {
   align-items: flex-end;
   max-height: 290px;
   min-height: 92px;
-  height: -webkit-calc(100vh - 560px);
+  height: -webkit-calc(100% - 560px);
   height: -moz-calc(100vh - 560px);
   height: calc(100vh - 560px);
 }
