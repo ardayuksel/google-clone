@@ -101,6 +101,9 @@ a img {
   border-radius: 50px;
   height: 46px;
 }
+.input-container:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
 .input__input {
   height: 34px;
   flex: 1;
