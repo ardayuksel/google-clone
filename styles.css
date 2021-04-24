@@ -150,3 +150,117 @@ a img {
   cursor: pointer;
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.footer-container a {
+  font-size: 14px;
+  line-height: 48px;
+  padding-left: 35px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.hr {
+  border: 1px solid #dadce0;
+}
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-container .turkey {
+  display: block;
+  margin-left: -2px;
+  font-size: 15px;
+}
+.test {
+  display: inline-block;
+  margin-left: -13px;
+}
+.test2 {
+  margin-right: -10px;
+}
+.footer-down-center {
+  margin-right: 130px;
+}
+.footer-down-center .leaf {
+  display: inline;
+  width: 12px;
+  margin-right: -29px;
+  margin-bottom: -1px;
+}
+.carbon {
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-down-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: 1;
+    margin-left: 130px;
+  }
+  .footer-down-center .leaf {
+    display: inline;
+    width: 12px;
+    margin-right: -29px;
+    margin-bottom: -1px;
+  }
+  .footer-down-left {
+    display: flex;
+    order: 2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-down-right {
+    order: 2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .footer-down-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: 1;
+    margin-left: 130px;
+  }
+  .footer-down-center .leaf {
+    display: inline;
+    width: 12px;
+    margin-right: -29px;
+    margin-bottom: -1px;
+  }
+  .footer-down-left {
+    display: flex;
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-down-right {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deneme {
+    padding-right: 2px;
+    margin-right: 20px;
+  }
+  .test2 {
+    padding: 0 6px;
+  }
+}
