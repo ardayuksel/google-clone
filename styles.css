@@ -78,3 +78,44 @@ a img {
 .google-logo {
   height: 92px;
 }
+/* Input Section */
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input-container {
+  display: flex;
+  margin: 26px 20px 0 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(223, 225, 229);
+  min-width: 420px;
+  width: 584px;
+  max-width: 584px;
+  margin-top: 26px;
+  border-radius: 50px;
+  height: 46px;
+}
+.input__input {
+  height: 34px;
+  flex: 1;
+  border: none;
+  font-size: 16px;
+}
+.input__input:focus {
+  outline: none;
+}
+.input__search-icon {
+  width: 20px;
+  justify-self: flex-start;
+  fill: #9aa0a6;
+  margin-left: 14px;
+}
+.input__mic-icon {
+  margin-right: 16px;
+}
+.input__keyboard-icon {
+  margin-right: 10px;
+  margin-top: 4px;
+}
