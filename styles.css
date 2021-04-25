@@ -262,6 +262,7 @@ a img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
   }
   .footer-down-right {
     order: 3;
