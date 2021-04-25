@@ -193,7 +193,7 @@ a img {
   margin-bottom: -1px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .footer-down-center {
     display: flex;
     justify-content: center;
@@ -211,17 +211,32 @@ a img {
   .footer-down-left {
     display: flex;
     order: 2;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
   }
   .footer-down-right {
     order: 2;
-    width: 50%;
+    width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-right: 60px;
+  }
+  .about {
+    margin-left: -20px;
+  }
+  .ads {
+    margin-top: 1px;
+    margin-right: -20px;
+  }
+  .company {
+    margin-left: 14px;
+  }
+  .searching {
+    margin-left: 6px;
   }
 }
 @media only screen and (max-width: 756px) {
@@ -254,6 +269,7 @@ a img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 64px;
   }
   .deneme {
     padding-right: 2px;
