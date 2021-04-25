@@ -6,4 +6,4 @@ Trying to clone and make practice on Google mainpage nearly same.
 - HTML5
 - CSS3
 
-![Screen Recording 2021-04-25 at 11 38 24](https://user-images.githubusercontent.com/22565318/115992150-d8918f80-a5d4-11eb-97f7-ec6d9ef90b25.gif)
+![Screen Recording 2021-04-25 at 19 51 10](https://user-images.githubusercontent.com/22565318/116001935-d4c73280-a5ff-11eb-9e2a-7a90392ebcde.gif)
