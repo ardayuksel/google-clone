@@ -150,7 +150,7 @@ a img {
   cursor: pointer;
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
-
+/* Footer Section */
 .footer-container {
   position: absolute;
   bottom: 0;
@@ -164,7 +164,7 @@ a img {
   color: rgba(0, 0, 0, 0.54);
 }
 .hr {
-  border: 1px solid #dadce0;
+  border: 1px solid rgba(218, 220, 224, 0.5);
 }
 .footer-down {
   display: flex;
@@ -191,8 +191,6 @@ a img {
   width: 12px;
   margin-right: -29px;
   margin-bottom: -1px;
-}
-.carbon {
 }
 
 @media only screen and (max-width: 1000px) {
@@ -234,12 +232,13 @@ a img {
     width: 100%;
     order: 1;
     margin-left: 130px;
+    margin-bottom: -14px;
   }
   .footer-down-center .leaf {
     display: inline;
     width: 12px;
     margin-right: -29px;
-    margin-bottom: -1px;
+    margin-bottom: 2px;
   }
   .footer-down-left {
     display: flex;
@@ -262,5 +261,21 @@ a img {
   }
   .test2 {
     padding: 0 6px;
+  }
+  .about {
+    margin-left: -30px;
+    margin-top: 10px;
+  }
+  .ads {
+    margin-left: -30px;
+    margin-top: 10px;
+  }
+  .company {
+    margin-left: -26px;
+    margin-top: 10px;
+  }
+  .searching {
+    margin-left: -24px;
+    margin-top: 10px;
   }
 }
