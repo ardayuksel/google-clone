@@ -109,6 +109,7 @@ a img {
   flex: 1;
   border: none;
   font-size: 16px;
+  padding-left: 5px;
 }
 .input__input:focus {
   outline: none;
@@ -281,15 +282,14 @@ a img {
     align-items: center;
     width: 100%;
     order: 1;
-    margin-left: 134px;
-    margin-bottom: -12px;
+    margin-right: 130px;
   }
   .footer-down-center .leaf {
     display: inline;
     width: 12px;
     height: 14px;
     margin-right: -29px;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
   .footer-down-left {
     display: flex;
@@ -298,51 +298,22 @@ a img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    margin-bottom: -1px;
+    margin-left: -8px;
   }
+
   .footer-down-right {
     order: 3;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 72px;
+    margin-left: 57px;
+    margin-bottom: -1px;
+  }
+  .test {
+    margin-left: 44px;
   }
   .deneme {
-    padding-right: 2px;
-    margin-right: 20px;
-  }
-  .test2 {
-    padding: 0px 6px;
-  }
-  .about {
-    margin-left: -42px;
-    margin-top: 11px;
-  }
-  .ads {
-    margin-left: -30px;
-    margin-top: 11px;
-  }
-  .company {
-    margin-left: -26px;
-    margin-top: 11px;
-  }
-  .searching {
-    margin-left: -27px;
-    margin-top: 11px;
-  }
-  .privacy {
-    margin-bottom: 2px;
-    margin-left: -20px;
-    margin-right: -12px;
-  }
-  .sartlar {
-    margin-top: -3px;
-    margin-left: -1px;
-  }
-  .settings {
-    margin-top: -3px;
-    margin-left: -1px;
+    margin-right: -49px;
   }
 }
