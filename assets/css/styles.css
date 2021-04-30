@@ -255,7 +255,6 @@ input:not(:valid) ~ .remove-text-link {
 .report:hover {
   text-decoration: underline;
 }
-
 /* Footer Section */
 .footer-container {
   position: absolute;
