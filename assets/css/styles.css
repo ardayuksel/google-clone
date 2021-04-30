@@ -164,9 +164,10 @@ input:not(:valid) ~ .remove-text-link {
 }
 .suggestion-all {
   display: flex;
+  align-items: center;
   flex-direction: column;
   line-height: 18px;
-  padding: -16px 0;
+  padding: -16px 0 12px 0;
 }
 .search-suggestions .img-suggestion {
   display: flex;
@@ -186,7 +187,7 @@ input:not(:valid) ~ .remove-text-link {
   display: inline-block;
   color: #80868b;
   font-size: 13px;
-  margin-left: 1px;
+  margin-left: -4px;
   margin-top: -1px;
   font-weight: normal;
 }
@@ -255,6 +256,7 @@ input:not(:valid) ~ .remove-text-link {
 .report:hover {
   text-decoration: underline;
 }
+
 /* Footer Section */
 .footer-container {
   position: absolute;
