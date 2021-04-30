@@ -162,7 +162,7 @@ input:not(:valid) ~ .remove-text-link {
   font-size: 16px;
   font-weight: bold;
 }
-.suggestion-toplam {
+.suggestion-all {
   display: flex;
   flex-direction: column;
   line-height: 18px;
@@ -170,11 +170,10 @@ input:not(:valid) ~ .remove-text-link {
 }
 .search-suggestions .img-suggestion {
   display: flex;
-  height: 40px;
+  height: 44px;
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
-  margin-bottom: 4px;
 }
 .img-suggestion-title {
   font-weight: normal;
@@ -198,7 +197,7 @@ input:not(:valid) ~ .remove-text-link {
   margin-right: 6px;
 }
 .search-suggestions div:hover {
-  background-color: #e8eaed;
+  background-color: #eeeeee;
 }
 
 .buttons-wrapper {
