@@ -145,8 +145,8 @@ input:not(:valid) ~ .remove-text-link {
 .search-bar:focus-within .search-suggestions {
   display: block;
 }
-.search-bar:focus-within .search-suggestions {
-  display: block;
+.search-bar:focus-within ~ .buttons-wrapper {
+  display: none;
 }
 .search-suggestions hr {
   border: 0;
@@ -156,6 +156,7 @@ input:not(:valid) ~ .remove-text-link {
 
 .search-suggestions .text-suggestion {
   display: flex;
+  align-items: center;
   padding: 6px 20px 6px 14px;
   height: 30px;
   font-size: 16px;
@@ -173,6 +174,7 @@ input:not(:valid) ~ .remove-text-link {
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
+  margin-bottom: 4px;
 }
 .img-suggestion-title {
   font-weight: normal;
@@ -236,7 +238,6 @@ input:not(:valid) ~ .remove-text-link {
   width: 20px;
   height: 20px;
   margin-right: 12px;
-  margin-top: 3px;
   fill: #9aa0a6;
 }
 .search-suggestions span {
