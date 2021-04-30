@@ -154,16 +154,51 @@ input:not(:valid) ~ .remove-text-link {
   margin: 0 20px 4px 14px;
 }
 
-.search-suggestions div {
+.search-suggestions .text-suggestion {
   display: flex;
-  padding: 0 20px 0 14px;
+  padding: 6px 20px 6px 14px;
   height: 30px;
   font-size: 16px;
   font-weight: bold;
 }
+.suggestion-toplam {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+  padding: -16px 0;
+}
+.search-suggestions .img-suggestion {
+  display: flex;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.img-suggestion-title {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-left: 1px;
+  color: #212121;
+}
+.search-suggestions .img-suggestion-content {
+  display: inline-block;
+  color: #80868b;
+  font-size: 13px;
+  margin-left: 1px;
+  margin-top: -1px;
+  font-weight: normal;
+}
+
+.img-suggestion img {
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 6px;
+}
 .search-suggestions div:hover {
   background-color: #e8eaed;
 }
+
 .buttons-wrapper {
   display: flex;
   justify-content: center;
@@ -201,7 +236,7 @@ input:not(:valid) ~ .remove-text-link {
   width: 20px;
   height: 20px;
   margin-right: 12px;
-  margin-top: 5px;
+  margin-top: 3px;
   fill: #9aa0a6;
 }
 .search-suggestions span {
