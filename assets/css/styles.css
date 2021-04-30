@@ -437,6 +437,12 @@ input:not(:valid) ~ .remove-text-link {
   .test {
     margin-left: 44px;
   }
+  .privacy {
+    margin-left: -2px;
+  }
+  .terms {
+    margin-left: 0px;
+  }
   .deneme {
     margin-right: -49px;
   }
