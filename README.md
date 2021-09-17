@@ -1,7 +1,7 @@
 # Google Clone
 This project based on https://www.google.com.tr 04.2021 dated in Turkey.
 # Goal
-Trying to clone and make practice on Google mainpage nearly same.
+Trying to clone and make practice on Google mainpage with <b> pixel perfect </b>.
 ## Tech
 - HTML5
 - CSS3
